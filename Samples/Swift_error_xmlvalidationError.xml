@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SWIFT_ERROR MessageType="620">
+    <XmlValidationError ExceptionType="System.Xml.Schema.XmlSchemaException: The 'Line2' element has an invalid value according to its data type. An error occurred at , (1, 2953)." LineNumber="1" LinePosition="2953" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category6/MT620#SWIFT_CATEGORY6_MT620_Interchange" Severity="Error">
+        <Message>Incorrect format in Line2 for tag 53D.</Message>
+    </XmlValidationError>
+    <XmlValidationError ExceptionType="System.Xml.Schema.XmlSchemaException: The 'Line3' element has an invalid value according to its data type. An error occurred at , (1, 3048)." LineNumber="1" LinePosition="3048" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category6/MT620#SWIFT_CATEGORY6_MT620_Interchange" Severity="Error">
+        <Message>Incorrect format in Line3 for tag 53D.</Message>
+    </XmlValidationError>
+    <XmlValidationError ExceptionType="System.Xml.Schema.XmlSchemaException: The 'Line4' element has an invalid value according to its data type. An error occurred at , (1, 3143)." LineNumber="1" LinePosition="3143" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category6/MT620#SWIFT_CATEGORY6_MT620_Interchange" Severity="Error">
+        <Message>Incorrect format in Line4 for tag 53D.</Message>
+    </XmlValidationError>
+    <XmlValidationError ExceptionType="System.Xml.Schema.XmlSchemaException: The 'Line2' element has an invalid value according to its data type. An error occurred at , (1, 3396)." LineNumber="1" LinePosition="3396" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category6/MT620#SWIFT_CATEGORY6_MT620_Interchange" Severity="Error">
+        <Message>Incorrect format in Line2 for tag 86D.</Message>
+    </XmlValidationError>
+    <XmlValidationError ExceptionType="System.Xml.Schema.XmlSchemaException: The 'Line3' element has an invalid value according to its data type. An error occurred at , (1, 3491)." LineNumber="1" LinePosition="3491" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category6/MT620#SWIFT_CATEGORY6_MT620_Interchange" Severity="Error">
+        <Message>Incorrect format in Line3 for tag 86D.</Message>
+    </XmlValidationError>
+    <XmlValidationError ExceptionType="System.Xml.Schema.XmlSchemaException: The 'Line4' element has an invalid value according to its data type. An error occurred at , (1, 3586)." LineNumber="1" LinePosition="3586" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category6/MT620#SWIFT_CATEGORY6_MT620_Interchange" Severity="Error">
+        <Message>Incorrect format in Line4 for tag 86D.</Message>
+    </XmlValidationError>
+    <XmlValidationError ExceptionType="System.Xml.Schema.XmlSchemaException: The 'Line2' element has an invalid value according to its data type. An error occurred at , (1, 3838)." LineNumber="1" LinePosition="3838" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category6/MT620#SWIFT_CATEGORY6_MT620_Interchange" Severity="Error">
+        <Message>Incorrect format in Line2 for tag 56D.</Message>
+    </XmlValidationError>
+    <XmlValidationError ExceptionType="System.Xml.Schema.XmlSchemaException: The 'Line3' element has an invalid value according to its data type. An error occurred at , (1, 3933)." LineNumber="1" LinePosition="3933" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category6/MT620#SWIFT_CATEGORY6_MT620_Interchange" Severity="Error">
+        <Message>Incorrect format in Line3 for tag 56D.</Message>
+    </XmlValidationError>
+    <XmlValidationError ExceptionType="System.Xml.Schema.XmlSchemaException: The 'Line4' element has an invalid value according to its data type. An error occurred at , (1, 4028)." LineNumber="1" LinePosition="4028" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category6/MT620#SWIFT_CATEGORY6_MT620_Interchange" Severity="Error">
+        <Message>Incorrect format in Line4 for tag 56D.</Message>
+    </XmlValidationError>
+    <XmlValidationError ExceptionType="System.Xml.Schema.XmlSchemaException: The 'Line2' element has an invalid value according to its data type. An error occurred at , (1, 4281)." LineNumber="1" LinePosition="4281" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category6/MT620#SWIFT_CATEGORY6_MT620_Interchange" Severity="Error">
+        <Message>Incorrect format in Line2 for tag 57D.</Message>
+    </XmlValidationError>
+    <XmlValidationError ExceptionType="System.Xml.Schema.XmlSchemaException: The 'Line3' element has an invalid value according to its data type. An error occurred at , (1, 4376)." LineNumber="1" LinePosition="4376" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category6/MT620#SWIFT_CATEGORY6_MT620_Interchange" Severity="Error">
+        <Message>Incorrect format in Line3 for tag 57D.</Message>
+    </XmlValidationError>
+    <XmlValidationError ExceptionType="System.Xml.Schema.XmlSchemaException: The 'Line4' element has an invalid value according to its data type. An error occurred at , (1, 4471)." LineNumber="1" LinePosition="4471" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category6/MT620#SWIFT_CATEGORY6_MT620_Interchange" Severity="Error">
+        <Message>Incorrect format in Line4 for tag 57D.</Message>
+    </XmlValidationError>
+    <XmlValidationError ExceptionType="System.Xml.Schema.XmlSchemaException: The 'Line2' element has an invalid value according to its data type. An error occurred at , (1, 4734)." LineNumber="1" LinePosition="4734" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category6/MT620#SWIFT_CATEGORY6_MT620_Interchange" Severity="Error">
+        <Message>Incorrect format in Line2 for tag 58D.</Message>
+    </XmlValidationError>
+    <XmlValidationError ExceptionType="System.Xml.Schema.XmlSchemaException: The 'Line3' element has an invalid value according to its data type. An error occurred at , (1, 4829)." LineNumber="1" LinePosition="4829" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category6/MT620#SWIFT_CATEGORY6_MT620_Interchange" Severity="Error">
+        <Message>Incorrect format in Line3 for tag 58D.</Message>
+    </XmlValidationError>
+    <XmlValidationError ExceptionType="System.Xml.Schema.XmlSchemaException: The 'Line4' element has an invalid value according to its data type. An error occurred at , (1, 4924)." LineNumber="1" LinePosition="4924" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category6/MT620#SWIFT_CATEGORY6_MT620_Interchange" Severity="Error">
+        <Message>Incorrect format in Line4 for tag 58D.</Message>
+    </XmlValidationError>
+    <BreValidationError MessageType="" ErrorCode="Error code not defined">
+        <ElementName Name="NameAndAddress" />
+        <SequenceName Name="" />
+        <ElementValue Value="" />
+        <RuleName Name="Validate_BeneficiaryInstitution_F_58a" />
+        <PolicyName Name="MT620_Validation_Policy" />
+        <ConditionalRuleName RuleName="" />
+        <ConditionalRuleNumber RuleNumber="" />
+        <ErrorMessage Message="" />
+    </BreValidationError>
+    <BreValidationError MessageType="" ErrorCode="Error code not defined">
+        <ElementName Name="NameAndAddress" />
+        <SequenceName Name="" />
+        <ElementValue Value="" />
+        <RuleName Name="Validate_Intermediary_F_56a" />
+        <PolicyName Name="MT620_Validation_Policy" />
+        <ConditionalRuleName RuleName="" />
+        <ConditionalRuleNumber RuleNumber="" />
+        <ErrorMessage Message="" />
+    </BreValidationError>
+    <BreValidationError MessageType="" ErrorCode="Error code not defined">
+        <ElementName Name="NameAndAddress" />
+        <SequenceName Name="" />
+        <ElementValue Value="" />
+        <RuleName Name="Validate_Intermediary2_F_86a" />
+        <PolicyName Name="MT620_Validation_Policy" />
+        <ConditionalRuleName RuleName="" />
+        <ConditionalRuleNumber RuleNumber="" />
+        <ErrorMessage Message="" />
+    </BreValidationError>
+    <BreValidationError MessageType="" ErrorCode="Error code not defined">
+        <ElementName Name="NameAndAddress" />
+        <SequenceName Name="" />
+        <ElementValue Value="" />
+        <RuleName Name="Validate_ReceivingAgent_F_57a" />
+        <PolicyName Name="MT620_Validation_Policy" />
+        <ConditionalRuleName RuleName="" />
+        <ConditionalRuleNumber RuleNumber="" />
+        <ErrorMessage Message="" />
+    </BreValidationError>
+    <BreValidationError MessageType="" ErrorCode="Error code not defined">
+        <ElementName Name="NameAndAddress" />
+        <SequenceName Name="" />
+        <ElementValue Value="" />
+        <RuleName Name="Validate_DeliveryAgent_F_53a" />
+        <PolicyName Name="MT620_Validation_Policy" />
+        <ConditionalRuleName RuleName="" />
+        <ConditionalRuleNumber RuleNumber="" />
+        <ErrorMessage Message="" />
+    </BreValidationError>
+</SWIFT_ERROR>
