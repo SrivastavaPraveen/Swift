@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution name="urn:schemas-microsoft-com:office:infopath:MT021:-myXSD-2004-06-29T20-04-55" solutionVersion="1.0.0.521" productVersion="11.0.6357" PIVersion="1.0.0.0"  href="http://localhost/sites/BASSite/Templates/MT021.xsn"?><?mso-application progid="InfoPath.Document"?><ns1:EnvelopeMT021 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:b="http://schemas.microsoft.com/BizTalk/2003" xmlns:ns1="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMT021" xmlns:ns0="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category0/MT021" xmlns:ns2="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/BaseTypes" xmlns:a4s0="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/DataTypes" xmlns:schemaEditorExtension="http://schemas.microsoft.com/BizTalk/2003/SchemaEditorExtensions" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:tns="http://microsoft.com/webservices/Solutions/FinancialServices/SWIFT/History" xmlns:ns3="http://microsoft.com/webservices/Solutions/FinancialServices/SWIFT/MRSR" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns4="http://schemas.microsoft.com/A4SWIFT/MRSRPropertySchema" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-06-29T20-04-55" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<ns1:CorrelationToken></ns1:CorrelationToken>
+	<ns1:signatures1></ns1:signatures1>
+	<ns1:OriginalMessage></ns1:OriginalMessage>
+	<ns1:ModifiedMessage>
+		<ns0:SWIFT_CATEGORY0_MT021_Interchange>
+			<SWIFTHeader>
+				<BasicHeaderBlock>
+					<ApplicationIdentifier>F</ApplicationIdentifier>
+					<ServiceIdentifier>01</ServiceIdentifier>
+					<LTAddress/>
+					<SessionNumber>0000</SessionNumber>
+					<SequenceNumber>000000</SequenceNumber>
+				</BasicHeaderBlock>
+				<ApplicationHeaderBlock_Input>
+					<MessageType>021</MessageType>
+					<DestinationAddress></DestinationAddress>
+					<MessagePriority>N</MessagePriority>
+				</ApplicationHeaderBlock_Input>
+				<TextBlock>
+					<TextBlock/>
+				</TextBlock>
+			</SWIFTHeader>
+			<SWIFT_CATEGORY0_MT021><ReportDetailsSection><ReportDetails><SectionNumber_202><SectionNumber></SectionNumber></SectionNumber_202><TotalSections_203><TotalSections></TotalSections></TotalSections_203></ReportDetails></ReportDetailsSection><InformationOnRetrievedMessages1><InformationOnRetrievedMessages><InputHistory_280><Time></Time><MessageInputReference><Date></Date><LTIdentifier></LTIdentifier><BranchCode></BranchCode><SessionNumber></SessionNumber><ISN></ISN></MessageInputReference><Acceptance></Acceptance></InputHistory_280></InformationOnRetrievedMessages><RetrievedMessageText><OriginalSWIFTHeader><BasicHeaderBlock><ApplicationIdentifier></ApplicationIdentifier><ServiceIdentifier></ServiceIdentifier><LTAddress></LTAddress></BasicHeaderBlock></OriginalSWIFTHeader><BodyRetrievalErrorCode_421><RetrievalErrorCode></RetrievalErrorCode></BodyRetrievalErrorCode_421></RetrievedMessageText></InformationOnRetrievedMessages1></SWIFT_CATEGORY0_MT021>
+		</ns0:SWIFT_CATEGORY0_MT021_Interchange>
+	</ns1:ModifiedMessage>
+	<ns1:Errors></ns1:Errors>
+	<ns1:IsNewSubmission>true</ns1:IsNewSubmission>
+	<ns1:HeaderPart></ns1:HeaderPart>
+	<ns1:TrailerPart></ns1:TrailerPart>
+</ns1:EnvelopeMT021>
