@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<SWIFT_ERROR MessageType="920">
+    <BreValidationError MessageType="" ErrorCode="T26">
+        <ElementName Name="CurrencyCode" />
+        <SequenceName Name="" />
+        <ElementValue Value="AAA" />
+        <RuleName Name="Validate_MT920" />
+        <PolicyName Name="CurrencyCode_Policy" />
+        <ConditionalRuleName RuleName="" />
+        <ConditionalRuleNumber RuleNumber="" />
+        <ErrorMessage Message="The data content of this field may not contain a '/' as its first character, a '/' as its last character, and it cannot contain '//' (two consecutive slashes) anywhere within its contents." />
+    </BreValidationError>
+    <BreValidationError MessageType="" ErrorCode="T52">
+        <ElementName Name="ELEMENTCURRENCYNAME" />
+        <SequenceName Name="" />
+        <ElementValue Value="AAA" />
+        <RuleName Name="Validate_FloorLimitIndicator1_34F_Amount" />
+        <PolicyName Name="MT920_Validation_Policy" />
+        <ConditionalRuleName RuleName="" />
+        <ConditionalRuleNumber RuleNumber="" />
+        <ErrorMessage Message="Currency code not valid price code: PCT, REN or YLD." />
+    </BreValidationError>
+</SWIFT_ERROR>
+<?xml version="1.0" encoding="Windows-1252"?>
+<SWIFT_ERROR MessageType="940">
+    <BreValidationError MessageType="" ErrorCode="T52">
+        <ElementName Name="ELEMENTCURRENCYNAME" />
+        <SequenceName Name="" />
+        <ElementValue Value="AAA" />
+        <RuleName Name="Validate_ClosingAvailableBalance_64_Amount" />
+        <PolicyName Name="MT940_Validation_Policy" />
+        <ConditionalRuleName RuleName="" />
+        <ConditionalRuleNumber RuleNumber="" />
+        <ErrorMessage Message="Currency code not valid price code: PCT, REN or YLD." />
+    </BreValidationError>
+    <BreValidationError MessageType="MT940" ErrorCode="C27">
+        <ElementName Name="" />
+        <SequenceName Name="" />
+        <ElementValue Value="" />
+        <RuleName Name="Validate_MT940" />
+        <PolicyName Name="SWIFT_NetworkRule27_Policy" />
+        <ConditionalRuleName RuleName="C2" />
+        <ConditionalRuleNumber RuleNumber="Rule 27" />
+        <ErrorMessage Message="" />
+    </BreValidationError>
+</SWIFT_ERROR>
