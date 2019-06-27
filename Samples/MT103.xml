@@ -1,0 +1,86 @@
+<SWIFT_CATEGORY1_MT103_Interchange xmlns="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category1/MT103">
+    <SWIFTHeader xmlns="">
+        <BasicHeaderBlock>
+            <ApplicationIdentifier>F</ApplicationIdentifier>
+            <ServiceIdentifier>01</ServiceIdentifier>
+            <LTAddress>BOFAUSNYJXXX</LTAddress>
+            <SessionNumber>4321</SessionNumber>
+            <SequenceNumber>000123</SequenceNumber>
+        </BasicHeaderBlock>
+        <ApplicationHeaderBlock_Input>
+            <MessageType>103</MessageType>
+            <DestinationAddress>BANKDEFFAXXX</DestinationAddress>
+            <MessagePriority>N</MessagePriority>
+            <DeliveryMonitoring>2</DeliveryMonitoring>
+            <ObsolescencePeriod>020</ObsolescencePeriod>
+        </ApplicationHeaderBlock_Input>
+        <UserHeaderBlock>
+            <FINServiceIdentifier_103>
+                <ServiceIdentifier>CAD</ServiceIdentifier>
+            </FINServiceIdentifier_103>
+        </UserHeaderBlock>
+        <TextBlock />
+    </SWIFTHeader>
+    <SWIFT_CATEGORY1_MT103 xmlns="">
+        <SendersReference_20>
+            <Reference>aaaaaaaa</Reference>
+        </SendersReference_20>
+        <BankOperationCode_23B>
+            <Type>CRED</Type>
+        </BankOperationCode_23B>
+        <ValueDateCurrencyInterbankSettledAmount_32A>
+            <Date>991231</Date>
+            <Currency>USD</Currency>
+            <Amount>999909999099,99</Amount>
+        </ValueDateCurrencyInterbankSettledAmount_32A>
+        <OrderingCustomer_50A>
+            <Account>
+                <Account>aaaa5aaaa0aaaa5aaaa0aaaa5aaaa0aaaa</Account>
+            </Account>
+            <BankIdentifierCode>
+                <BankCode>AAAA</BankCode>
+                <CountryCode>BB</CountryCode>
+                <AreaCode>CC</AreaCode>
+                <BranchCode>DDD</BranchCode>
+            </BankIdentifierCode>
+        </OrderingCustomer_50A>
+        <BeneficiaryCustomer_59A>
+            <Account>
+                <Account>aaaa5aaaa0aaaa5aaaa0aaaa5aaaa0aaaa</Account>
+            </Account>
+            <BankIdentifierCode>
+                <BankCode>AAAA</BankCode>
+                <CountryCode>BB</CountryCode>
+                <AreaCode>CC</AreaCode>
+                <BranchCode>DDD</BranchCode>
+            </BankIdentifierCode>
+        </BeneficiaryCustomer_59A>
+        <DetailsOfCharges_71A>
+            <Code>OUR</Code>
+        </DetailsOfCharges_71A>
+    </SWIFT_CATEGORY1_MT103>
+    <SWIFTTrailer xmlns="">
+        <EndTextBlock />
+        <AllTrailerBlocks>
+            <UserAndSystemTrailerBlocks>
+                <MessageAuthenticationCode>
+                    <AuthenticationResult>23456789</AuthenticationResult>
+                </MessageAuthenticationCode>
+                <ProprietaryAuthenticationCode>
+                    <AuthenticationResult>23456789</AuthenticationResult>
+                </ProprietaryAuthenticationCode>
+                <Checksum>
+                    <Checksum>123456789012</Checksum>
+                </Checksum>
+                <SystemOrientedMessage>
+                    <TimeAndInputReference>1231313</TimeAndInputReference>
+                </SystemOrientedMessage>
+                <Training />
+                <PossibleDuplicationEmission>
+                    <TimeAndInputReference>12345</TimeAndInputReference>
+                </PossibleDuplicationEmission>
+                <DelayedMessage />
+            </UserAndSystemTrailerBlocks>
+        </AllTrailerBlocks>
+    </SWIFTTrailer>
+</SWIFT_CATEGORY1_MT103_Interchange>
