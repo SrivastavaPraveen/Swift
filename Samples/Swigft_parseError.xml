@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<SWIFT_ERROR MessageType="577">
+    <ParseError ExceptionType="" LineNumber="0" LinePosition="0" MultipleEmptyLines="False" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category5/MT577#SWIFT_CATEGORY5_MT577_Interchange">
+        <Message>Unexpected data found while looking for:
+'{CHK:'
+'{SYS:'
+'{TNG:}'
+'{PDE:'
+'{RTV:}'
+'{MRF:'
+'{PDM:'
+'{DLM:}'
+'}'
+The current definition being parsed is AllTrailerBlocks. The stream offset where the error occured is 314. The line number where the error occured is 1. The column where the error occured is 314.</Message>
+    </ParseError>
+    <ParseError ExceptionType="" LineNumber="0" LinePosition="0" MultipleEmptyLines="False" SchemaName="">
+        <Message>Stray data was found at the end of the message.</Message>
+    </ParseError>
+</SWIFT_ERROR>
+<?xml version="1.0" encoding="Windows-1252"?>
+<SWIFT_ERROR MessageType="577">
+    <ParseError ExceptionType="" LineNumber="0" LinePosition="0" MultipleEmptyLines="False" SchemaName="http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category5/MT577#SWIFT_CATEGORY5_MT577_Interchange">
+        <Message>Unexpected data found while looking for:
+'{CHK:'
+'{SYS:'
+'{TNG:}'
+'{PDE:'
+'{RTV:}'
+'{MRF:'
+'{PDM:'
+'{DLM:}'
+'}'
+The current definition being parsed is AllTrailerBlocks. The stream offset where the error occured is 314. The line number where the error occured is 1. The column where the error occured is 314.</Message>
+    </ParseError>
+    <ParseError ExceptionType="" LineNumber="0" LinePosition="0" MultipleEmptyLines="False" SchemaName="">
+        <Message>Stray data was found at the end of the message.</Message>
+    </ParseError>
+</SWIFT_ERROR>
